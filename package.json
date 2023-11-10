@@ -1,0 +1,27 @@
+{
+  "name": "ahj-socket-8-backend",
+  "version": "1.0.0",
+  "description": "backend for chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "keywords": [
+    "backend",
+    "websocket"
+  ],
+  "author": "Alexander B",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^3.0.4",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.2"
+  }
+}
